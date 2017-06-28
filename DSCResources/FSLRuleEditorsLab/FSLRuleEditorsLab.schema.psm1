@@ -17,9 +17,9 @@ configuration FSLRuleEditorsLab {
         Path       = Join-Path -Path $Path -ChildPath 'FSLogixAppsJavaRuleEditorSetup.exe';
         Ensure     = $Ensure;
 
-    }FSLJavaRuleEditor
+    }
 
-    FSLJavaRuleEditor 'FSLRuleEditorsLab' {
+    FSLRuleEditor 'FSLRuleEditorsLab' {
 
         Path       = Join-Path -Path $Path -ChildPath 'FSLogixAppsRuleEditorSetup.exe';
         Ensure     = $Ensure;

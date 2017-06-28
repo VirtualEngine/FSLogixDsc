@@ -1,5 +1,5 @@
 @{
-    ModuleVersion = '1.0.0';
+    ModuleVersion = '1.0.1';
     RootModule = 'FSLogixDsc.psm1';
     GUID = '95ec2ae9-1117-4463-9240-e8a78f5b4363';
     Author = 'Iain Brighton';
@@ -8,7 +8,7 @@
     Description = 'FSLogix Containers DSC Composite Resources.';
     PowerShellVersion = '4.0';
     CLRVersion = '4.0';
-    # RequiredModules = @('XenDesktop7', 'xCredSSP');
+    RequiredModules = @('xPSDesiredStateConfiguration');
     PrivateData = @{
         PSData = @{  # Private data to pass to the module specified in RootModule/ModuleToProcess
             Tags = @('VirtualEngine','FSLogix','Profile','Container','Composite','DSC');
@@ -17,5 +17,4 @@
             IconUri = 'https://raw.githubusercontent.com/VirtualEngine/FSLogixDsc/master/FSLogixLogo.jpg';
         } # End of PSData hashtable
     } # End of PrivateData hashtable
-
 }

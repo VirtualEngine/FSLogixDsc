@@ -11,7 +11,7 @@ The FSLogixDsc module installs and configures FSLogix application and profile co
 * **FSLProfileContainerPolicy** configures FSLogix Profile container registry settings.
 * **FSLRuleEditor** installs the FSLogix Rule Editor.
 * **FSLAppsLab** deploys the FSLogix container application, groups and policies on a single lab host.
-* **FSLEditorsLab** deploys the FSLogix rule and Java rule editor applications on a single lab host.
+* **FSLRuleEditorsLab** deploys the FSLogix rule and Java rule editor applications on a single lab host.
 
 ## Requirements
 
